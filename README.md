@@ -55,6 +55,16 @@ import React, {Component} from 'react';
 import {PagerTabIndicator, IndicatorViewPager, PagerTitleIndicator, PagerDotIndicator} from 'rn-viewpager';
 
 export default class ViewPagerPage extends Component {
+
+    constructor(props){
+        super(props);
+        this.state = {
+
+            // This is a static demo of the counter badge
+            new_messages_counter: 3
+        }
+    }
+
     render() {
         return (
             <View style={{flex:1}}>
@@ -122,7 +132,13 @@ export default class ViewPagerPage extends Component {
             },{
                 text: 'Message',
                 iconSource: require('../imgs/ic_tab_task_normal.png'),
-                selectedIconSource: require('../imgs/ic_tab_task_click.png')
+                selectedIconSource: require('../imgs/ic_tab_task_click.png'),
+                
+
+                // Here we introduce our counter badge for the tab
+                counter: this.state.new_messages_counter
+
+
             },{
                 text: 'Profile',
                 iconSource: require('../imgs/ic_tab_my_normal.png'),
