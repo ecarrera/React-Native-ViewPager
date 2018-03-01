@@ -52,7 +52,7 @@ react-native run-ios
 
 import {StyleSheet, View, Text} from 'react-native';
 import React, {Component} from 'react';
-import {PagerTabIndicator, IndicatorViewPager, PagerTitleIndicator, PagerDotIndicator} from 'rn-viewpager';
+import {PagerTabIndicator, IndicatorViewPager, PagerTitleIndicator, PagerDotIndicator} from 'rn-badged-viewpager';
 
 export default class ViewPagerPage extends Component {
 

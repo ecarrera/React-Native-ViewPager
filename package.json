@@ -1,14 +1,14 @@
 {
-  "name": "rn-viewpager",
-  "version": "1.2.9",
-  "description": "ViewPager component for react-native, same api on both android and ios.",
+  "name": "rn-badged-viewpager",
+  "version": "1.2.10",
+  "description": "ViewPager component with badge counter on tabs for react-native, same api on both android and ios.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1;"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zbtang/React-Native-ViewPager.git"
+    "url": "git+https://github.com/ecarrera/React-Native-ViewPager.git"
   },
   "keywords": [
     "react-native-component",
@@ -25,12 +25,16 @@
     "tab",
     "navigator",
     "tab-bar",
-    "tab-view"
+    "tab-view",
+    "badge",
+    "tabs-counter",
+    "notifications-counter",
+    "counter"
   ],
-  "author": "ZubinTang",
+  "author": "ZubinTang, forked by ECarrera",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zbtang/React-Native-ViewPager/issues"
+    "url": "https://github.com/ecarrera/React-Native-ViewPager/issues"
   },
-  "homepage": "https://github.com/zbtang/React-Native-ViewPager#readme"
+  "homepage": "https://github.com/ecarrera/React-Native-ViewPager#readme"
 }
